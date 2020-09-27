@@ -1,0 +1,180 @@
+html {
+  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+.title {
+  margin: 32px 0px;
+  padding: 0px 12px;
+  font-size: 22px;
+  font-weight: 200;
+}
+.flex {
+  display: flex;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.bg-white {
+  background: white;
+}
+.bg-gray {
+  background-color: #2D2D2D;
+}
+.card-item-img {
+  width: 100%;
+  border-radius: 16px;
+  height: 150px;
+  object-fit: cover;
+}
+
+/* -----------------------------------------
+container
+-------------------------------------------- */
+.container {
+  display: flex;
+  justify-content: center;
+}
+.app-container {
+  width: 380px;
+  background-color: #F7F7F7;
+  height: 100vh;
+  position: relative;
+}
+.carts-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/* -------------------------------------
+card-item
+---------------------------------------*/
+.card-item {
+  width: 48%;
+  padding: 0px 12px;
+  line-height: 32px;
+  margin-top: 24px;
+}
+.card-item-detail {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.card-title {
+  font-size: 14px;
+  margin: 8px 0px 4px;
+}
+.card-price {
+  font-size: 12px;
+  font-weight: bold;
+}
+.card-item-img {
+  width: 100%;
+  border-radius: 16px;
+  height: 150px;
+  object-fit: cover;
+}
+.card-btn {
+  margin: 16px 16px;
+  border-radius: 16px;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #F76844;
+  padding: 12px 16px;
+  text-align: left;
+  border: none;
+}
+.item-number {
+  margin-left: 8px;
+  width: 50%;
+  height: 16px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+}
+.item-number:focus {
+  outline: none !important;
+  border: 1px solid #61D9D4;
+}
+.btn-footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    border: solid 1px #F7F7F7;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+  }
+
+/* -----------------------------------------
+cart
+--------------------------------------------*/
+.cart-item {
+    width: 100%;
+    padding: 0px 12px;
+    line-height: 32px;
+    margin-top: 24px;
+  }
+.cart-item-img {
+    width: 50%;
+    border-radius: 16px;
+    height: 100px;
+    object-fit: cover;
+  }
+.cart-item-detail p {
+    padding-left: 10px;
+}
+.checkout-btn {
+  margin: 16px 16px;
+  border-radius: 16px;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #61D9D4;
+  padding: 12px 16px;
+  border: none;
+}
+
+/* .card-image {
+  width: 100%;
+  object-fit: cover;
+  height: 184px;
+  border-radius: 16px;
+} */
+/* .card-title {
+  font-size: 14px;
+  margin: 8px 0px 4px;
+}
+.card-price {
+  font-size: 12px;
+  font-weight: bold;
+} */
+
+
+
+
+/* .payment-complete {
+  position: absolute;
+  top: 50%;
+  margin-top: -100px;
+  text-align: center;
+  width: 100%;
+} */
